@@ -40,40 +40,6 @@
 
 ---
 
-## 📁 Project Structure
-
-```
-skin_cancer_pf2/
-│
-├── baseline_logistic_regression.py   # Phase 1: LR baseline pipeline
-├── skin_cancer_cnn.py                # Phase 2: EfficientNet-B3 single model
-├── skin_cancer_advanced.ipynb        # Phase 2: Full ensemble (Colab notebook)
-│
-├── data/
-│   └── HAM10000/
-│       ├── images/                   # All 10,015 dermoscopic images
-│       └── HAM10000_metadata.csv     # Labels, lesion type, patient info
-│
-├── outputs/                          # Generated plots, CSVs, reports
-│   ├── roc_curve.png
-│   ├── confusion_matrix.png
-│   ├── precision_recall_curve.png
-│   ├── threshold_tradeoff.png
-│   ├── per_class_accuracy.png
-│   ├── confidence_distribution.png
-│   ├── cnn_results.csv
-│   └── cnn_classification_report.txt
-│
-├── checkpoints/                      # Saved model weights
-│   ├── best_model.pt                 # Best EfficientNet-B3
-│   ├── best_model_b5.pt              # Best EfficientNet-B5
-│   ├── best_model_b5_pretrained.pt   # B5 with multiclass pretraining
-│   └── best_model_vit.pt             # Best EVA02 ViT
-│
-└── README.md
-```
-
----
 
 ## 📊 Dataset
 
