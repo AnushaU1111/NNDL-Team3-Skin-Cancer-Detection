@@ -108,13 +108,8 @@ pip install scikit-learn pandas numpy matplotlib Pillow
 python baseline_logistic_regression.py
 ```
 
-### Run Phase 2 single CNN (local)
-```bash
-python skin_cancer_cnn.py
-```
-
 ### Run full ensemble (Google Colab recommended)
-Open `skin_cancer_advanced.ipynb` in Colab with T4 GPU selected.
+Open `Skin Cancer Detection model.ipynb` in Colab with T4 GPU selected.
 
 ```python
 # Download dataset via Kaggle API
