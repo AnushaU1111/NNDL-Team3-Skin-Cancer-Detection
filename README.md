@@ -13,7 +13,6 @@
 ## 📋 Table of Contents
 
 - [Results](#-results)
-- [Project Structure](#-project-structure)
 - [Dataset](#-dataset)
 - [Models](#-models)
 - [Installation](#-installation)
