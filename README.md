@@ -181,7 +181,7 @@ y_pred = (prob_ensemble >= 0.40).astype(int)
 ## 👩‍💻 Author
 
 Aditya Purohit, Anusha Upadhyay, Swasti Sadanand
-CSC 525 Neural Networks & Deep Learning — Spring 2026
+CSC 542 Neural Networks & Deep Learning — Spring 2026
 
 ---
 
