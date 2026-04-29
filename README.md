@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![NC State](https://img.shields.io/badge/NC%20State-CSC%20542-CC0000)](https://ncsu.edu)
+[![NC State](https://img.shields.io/badge/NC%20State-CSC%20525-CC0000)](https://ncsu.edu)
 
 > Binary classification of dermoscopic images (Benign vs. Malignant) using a weighted ensemble of EfficientNet-B3, EfficientNet-B5, and EVA02 Vision Transformer — achieving **AUC 0.9640** and **93.9% malignant recall** on HAM10000.
 
@@ -181,7 +181,7 @@ y_pred = (prob_ensemble >= 0.40).astype(int)
 ## 👩‍💻 Author
 
 Aditya Purohit, Anusha Upadhyay, Swasti Sadanand
-CSC 542 Neural Networks & Deep Learning — Spring 2026
+CSC 525 Neural Networks & Deep Learning — Spring 2026
 
 ---
 
